@@ -13,6 +13,7 @@
 		7348B82A1EBFC58300B61FED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7348B8281EBFC58300B61FED /* LaunchScreen.storyboard */; };
 		7348B8321EBFC60300B61FED /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7348B8311EBFC60300B61FED /* ListViewController.swift */; };
 		7348B8341EBFCA7900B61FED /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7348B8331EBFCA7900B61FED /* Item.swift */; };
+		7348B8381EBFE06100B61FED /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7348B8371EBFE06100B61FED /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		7348B82B1EBFC58300B61FED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7348B8311EBFC60300B61FED /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		7348B8331EBFCA7900B61FED /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		7348B8371EBFE06100B61FED /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		7348B81E1EBFC58300B61FED /* NewsReader */ = {
 			isa = PBXGroup;
 			children = (
+				7348B8371EBFE06100B61FED /* DetailViewController.swift */,
 				7348B81F1EBFC58300B61FED /* AppDelegate.swift */,
 				7348B8231EBFC58300B61FED /* Main.storyboard */,
 				7348B8331EBFCA7900B61FED /* Item.swift */,
@@ -143,6 +146,7 @@
 				7348B8321EBFC60300B61FED /* ListViewController.swift in Sources */,
 				7348B8341EBFCA7900B61FED /* Item.swift in Sources */,
 				7348B8201EBFC58300B61FED /* AppDelegate.swift in Sources */,
+				7348B8381EBFE06100B61FED /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +312,7 @@
 				7348B8301EBFC58300B61FED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
