@@ -35,7 +35,7 @@
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="udH-c0-KZ9" kind="show" trigger="accessoryAction" id="ZFs-Vz-Ckd"/>
+                                    <segue destination="Zyp-ly-hUh" kind="show" id="Zz2-V8-w7q"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -51,37 +51,37 @@
             <point key="canvasLocation" x="904.79999999999995" y="12.143928035982009"/>
         </scene>
         <!--Detail View Controller-->
-        <scene sceneID="oT5-ob-UKW">
+        <scene sceneID="bfE-ev-rD6">
             <objects>
-                <viewController id="udH-c0-KZ9" customClass="DetailViewController" customModule="NewsReader" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Zyp-ly-hUh" customClass="DetailViewController" customModule="NewsReader" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="pbS-uG-9Fc"/>
-                        <viewControllerLayoutGuide type="bottom" id="TiG-hM-UoM"/>
+                        <viewControllerLayoutGuide type="top" id="gfB-Se-LEU"/>
+                        <viewControllerLayoutGuide type="bottom" id="YKG-Fl-R35"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="0k4-Vv-llQ">
+                    <view key="view" contentMode="scaleToFill" id="nxH-8h-X8W">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rMg-nk-HwC">
+                            <webView contentMode="scaleToFill" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="f7G-Oc-YYK">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </webView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="rMg-nk-HwC" firstAttribute="bottom" secondItem="TiG-hM-UoM" secondAttribute="top" id="OGr-qc-8rU"/>
-                            <constraint firstItem="rMg-nk-HwC" firstAttribute="top" secondItem="0k4-Vv-llQ" secondAttribute="top" id="Plq-Bo-2i9"/>
-                            <constraint firstAttribute="trailing" secondItem="rMg-nk-HwC" secondAttribute="trailing" id="hUb-7T-wBs"/>
-                            <constraint firstItem="rMg-nk-HwC" firstAttribute="leading" secondItem="0k4-Vv-llQ" secondAttribute="leading" id="vqp-F8-fzy"/>
+                            <constraint firstItem="f7G-Oc-YYK" firstAttribute="top" secondItem="nxH-8h-X8W" secondAttribute="top" id="2CE-rD-YMs"/>
+                            <constraint firstItem="f7G-Oc-YYK" firstAttribute="bottom" secondItem="YKG-Fl-R35" secondAttribute="top" id="NWP-xL-HSM"/>
+                            <constraint firstAttribute="trailing" secondItem="f7G-Oc-YYK" secondAttribute="trailing" id="iMs-1l-3J8"/>
+                            <constraint firstItem="f7G-Oc-YYK" firstAttribute="leading" secondItem="nxH-8h-X8W" secondAttribute="leading" id="xhl-ru-J1Z"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="webView" destination="rMg-nk-HwC" id="cgm-Z3-pJr"/>
+                        <outlet property="webView" destination="f7G-Oc-YYK" id="ZBy-wt-21B"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="5DE-Xa-RvR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hj2-OP-bSE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1676" y="11.244377811094454"/>
+            <point key="canvasLocation" x="1618.4000000000001" y="10.344827586206897"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="1U0-Bx-09M">
